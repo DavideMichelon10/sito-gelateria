@@ -55,7 +55,7 @@ export default function HeroSection() {
         <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-center gap-4 px-4 py-3 text-sm text-white/90 sm:gap-8 sm:py-4 sm:text-base">
           <span className="flex items-center gap-1.5">
             <span className="text-lemon">{"★".repeat(Math.round(business.rating))}</span>
-            <span>{business.rating} su Google ({business.reviewCount}+ recensioni)</span>
+            <span>({business.reviewCount}+ recensioni)</span>
           </span>
           <span className="hidden h-4 w-px bg-white/30 sm:block" />
           <span>Aperto tutti i giorni {schedule[0].open}–{schedule[0].close}</span>
