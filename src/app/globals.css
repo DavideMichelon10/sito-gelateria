@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-cream: #FFF8E7;
+  --color-pistachio: #93C572;
+  --color-strawberry: #FF6B8A;
+  --color-lemon: #FFE066;
+  --color-chocolate: #5C3D2E;
+  --font-sans: "Poppins", system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-chocolate);
+  font-family: var(--font-sans);
+}
