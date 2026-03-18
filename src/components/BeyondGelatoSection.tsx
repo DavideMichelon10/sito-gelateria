@@ -4,7 +4,7 @@ import { otherProducts } from "@/lib/data";
 
 const productImages: Record<string, string> = {
   Granite:
-    "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400&q=80",
+    "https://images.unsplash.com/photo-1621263764928-df1444c5e859?w=400&q=80",
   Frappè:
     "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=400&q=80",
   "Frozen yogurt":
@@ -12,7 +12,7 @@ const productImages: Record<string, string> = {
   Crepes:
     "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=400&q=80",
   "Torte gelato":
-    "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=400&q=80",
+    "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400&q=80",
 };
 
 export default function BeyondGelatoSection() {
@@ -28,11 +28,11 @@ export default function BeyondGelatoSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3">
+        <div className="flex flex-wrap justify-center gap-4 md:gap-6">
           {otherProducts.map((p) => (
             <div
               key={p.name}
-              className="group overflow-hidden rounded-2xl bg-white shadow-sm transition-shadow hover:shadow-md"
+              className="group w-full overflow-hidden rounded-2xl bg-white shadow-sm transition-shadow hover:shadow-md sm:w-[calc(50%-0.5rem)] lg:w-[calc(33.333%-1rem)]"
             >
               <div className="relative aspect-[16/10] overflow-hidden">
                 <Image
