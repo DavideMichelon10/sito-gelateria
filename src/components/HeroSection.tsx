@@ -19,7 +19,7 @@ export default function HeroSection() {
         <h1 className="mb-8 text-5xl font-bold leading-tight text-white sm:text-6xl md:text-7xl lg:text-8xl [text-shadow:_0_2px_12px_rgba(0,0,0,0.4)]">
           {heroContent.title}
         </h1>
-        <p className="mx-auto mb-4 max-w-xl text-lg font-medium text-white/95 sm:text-xl md:text-2xl [text-shadow:_0_1px_6px_rgba(0,0,0,0.3)]">
+        <p className="mx-auto mb-12 max-w-xl text-lg font-medium text-white/95 sm:text-xl md:text-2xl [text-shadow:_0_1px_6px_rgba(0,0,0,0.3)]">
           {heroContent.subtitle}
         </p>
         <div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-center sm:gap-4">
