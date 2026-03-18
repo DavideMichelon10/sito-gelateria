@@ -21,7 +21,6 @@ const productImages: Record<string, string> = {
     "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=400&q=80",
   "Bibite fresche":
     "https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?w=400&q=80",
-  Affogato: "/affogato.png",
   "Brioche con gelato": "/brioche_gelato.png",
 };
 

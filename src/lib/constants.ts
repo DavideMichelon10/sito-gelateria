@@ -15,9 +15,9 @@ export const colors = {
 // SEO
 export const seo = {
   siteName: "Gelatomania",
-  title: "Gelatomania Trento | Gelateria in centro a Trento",
+  title: "Gelatomania Trento | Gelateria artigianale in centro a Trento",
   description:
-    "Gelatomania è la gelateria in centro a Trento, in Via Giuseppe Garibaldi 9. Scopri gusti classici e originali, opzioni vegan e senza lattosio, granite, crepes e servizio di ordine online.",
+    "Gelatomania è la gelateria artigianale in centro a Trento, in Via Giuseppe Garibaldi 9. Gusti fatti ogni giorno, opzioni vegan e senza lattosio, granite, crepes e molto altro. A due passi dal Duomo.",
   keywords: [
     "gelateria Trento centro",
     "gelateria Trento",
@@ -35,25 +35,23 @@ export const seo = {
 
 // Testi hero
 export const heroContent = {
-  title: "Gelato nel cuore di Trento",
+  title: "Il gelato fatto ogni giorno a Trento",
   subtitle:
-    "Gusti classici, proposte originali e opzioni vegan, senza lattosio e senza glutine, a pochi passi da Piazza Duomo.",
-  subtitleAlt:
-    "Una pausa fresca e golosa in centro città, tra coni, coppette, granite, crepes e specialità da gustare passeggiando per Trento.",
+    "Ingredienti freschi, gusti autentici e opzioni per tutti. A due passi dal Duomo.",
   cta: {
-    flavors: "Scopri i gusti",
-    directions: "Come arrivare",
+    flavors: "Guarda i gusti di oggi",
+    directions: "Vieni a trovarci",
   },
 } as const;
 
 // Testi sezioni
 export const sectionCopy = {
   about: {
-    title: "Chi siamo",
-    text: "Gelatomania è la tua gelateria in centro a Trento, in Via Giuseppe Garibaldi, a due passi dalle vie più vive della città. Qui trovi una grande varietà di gusti, dai classici alle proposte più particolari, oltre a opzioni pensate anche per chi cerca alternative vegan o senza lattosio.",
+    title: "Fatto a mano, ogni mattina",
+    text: "Da Gelatomania il gelato nasce ogni giorno nel nostro laboratorio, con ingredienti freschi e tanta passione. Siamo in Via Giuseppe Garibaldi, nel cuore di Trento, a due passi dalle vie più vive della città. Qui trovi gusti classici, proposte creative e opzioni per chi cerca alternative vegan o senza lattosio.",
   },
   flavors: {
-    title: "I nostri gusti",
+    title: "I gusti di oggi",
     text: "Dal pistacchio alla stracciatella, dal cocco al bergamotto, dai gusti frutta alle specialità più creative: ogni visita è un'occasione per provare qualcosa di nuovo.",
   },
   dietary: {
@@ -69,8 +67,8 @@ export const sectionCopy = {
     text: "Durante l'anno, Gelatomania accompagna il ritmo del centro storico con proposte stagionali e idee golose perfette per l'estate e per i periodi più speciali dell'anno.",
   },
   location: {
-    title: "Dove siamo",
-    text: "Ci trovi in Via Giuseppe Garibaldi 9, Trento, in pieno centro, perfetti per una sosta veloce o una passeggiata con gelato tra le vie della città.",
+    title: "Vieni a trovarci",
+    text: "Ci trovi in Via Giuseppe Garibaldi 9, Trento, in pieno centro. Perfetti per una sosta veloce o una passeggiata con gelato tra le vie della città.",
   },
   faq: {
     title: "Domande frequenti",

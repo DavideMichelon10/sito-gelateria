@@ -22,9 +22,20 @@ export default function AboutSection() {
             <h2 className="mb-6 text-3xl font-bold text-chocolate md:text-4xl">
               {sectionCopy.about.title}
             </h2>
-            <p className="text-base leading-relaxed text-chocolate/80 sm:text-lg">
+            <p className="mb-6 text-base leading-relaxed text-chocolate/80 sm:text-lg">
               {sectionCopy.about.text}
             </p>
+            <div className="flex flex-wrap justify-center gap-3 md:justify-start">
+              <span className="rounded-full bg-pistachio/10 px-4 py-2 text-sm font-medium text-pistachio">
+                Ingredienti freschi
+              </span>
+              <span className="rounded-full bg-strawberry/10 px-4 py-2 text-sm font-medium text-strawberry">
+                Fatto ogni giorno
+              </span>
+              <span className="rounded-full bg-chocolate/10 px-4 py-2 text-sm font-medium text-chocolate">
+                Nel centro di Trento
+              </span>
+            </div>
           </div>
         </div>
       </div>
