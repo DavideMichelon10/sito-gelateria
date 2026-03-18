@@ -2,7 +2,7 @@ import { business, schedule } from "@/lib/data";
 
 export default function Footer() {
   return (
-    <footer id="contatti" className="bg-chocolate px-4 pb-20 pt-10 text-white md:pb-12 md:pt-12">
+    <footer id="contatti" className="bg-chocolate px-4 py-10 text-white md:py-12">
       <div className="mx-auto grid max-w-5xl gap-8 sm:grid-cols-3">
         <div>
           <h3 className="mb-3 text-lg font-semibold">{business.name}</h3>
