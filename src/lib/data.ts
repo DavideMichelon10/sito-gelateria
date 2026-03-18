@@ -115,6 +115,10 @@ export const otherProducts: Product[] = [
   { name: "Frozen yogurt", description: "Leggero e cremoso" },
   { name: "Crepes", description: "Con Nutella e altri condimenti golosi" },
   { name: "Torte gelato", description: "Per occasioni speciali" },
+  { name: "Yogurteria", description: "Yogurt freschi e personalizzabili con tanti topping" },
+  { name: "Bibite fresche", description: "Ampia scelta di bevande fresche e dissetanti" },
+  { name: "Affogato", description: "Gelato affogato al caffè, un classico irresistibile" },
+  { name: "Brioche con gelato", description: "Brioche calda farcita con il gelato che preferisci" },
 ];
 
 export const seasonalProducts: Product[] = [
