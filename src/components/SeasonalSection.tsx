@@ -36,8 +36,8 @@ export default function SeasonalSection() {
           {/* Image */}
           <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-lg max-md:order-first">
             <Image
-              src="https://images.unsplash.com/photo-1551024506-0bccd828d307?w=800&q=80"
-              alt="Specialità stagionali"
+              src="https://images.unsplash.com/photo-1606250583783-7e9b34035e49?w=800&q=80"
+              alt="Specialità trentine"
               fill
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 50vw"

@@ -22,9 +22,6 @@ export default function HeroSection() {
         <p className="mx-auto mb-4 max-w-xl text-lg font-medium text-white/95 sm:text-xl md:text-2xl [text-shadow:_0_1px_6px_rgba(0,0,0,0.3)]">
           {heroContent.subtitle}
         </p>
-        <p className="mx-auto mb-12 max-w-xl text-sm text-white/75 sm:text-base md:text-lg">
-          {heroContent.subtitleAlt}
-        </p>
         <div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-center sm:gap-4">
           <a
             href="#gusti"

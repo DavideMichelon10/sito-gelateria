@@ -2,6 +2,10 @@ import Image from "next/image";
 import { sectionCopy } from "@/lib/constants";
 import { otherProducts } from "@/lib/data";
 
+const productObjectPosition: Record<string, string> = {
+  Frappè: "center 30%",
+};
+
 const productImages: Record<string, string> = {
   Granite:
     "https://images.unsplash.com/photo-1621263764928-df1444c5e859?w=400&q=80",
@@ -12,7 +16,7 @@ const productImages: Record<string, string> = {
   Crepes:
     "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=400&q=80",
   "Torte gelato":
-    "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400&q=80",
+    "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=400&q=80",
 };
 
 export default function BeyondGelatoSection() {
@@ -40,6 +44,7 @@ export default function BeyondGelatoSection() {
                   alt={p.name}
                   fill
                   className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  style={{ objectPosition: productObjectPosition[p.name] ?? "center" }}
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
               </div>
